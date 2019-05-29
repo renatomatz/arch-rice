@@ -53,6 +53,9 @@ set wildmenu
 " -> ^] to jump to tag under curson
 " -> ^t to jump back up the tag stack 
 command! MakeTags !ctags -R
+" Autocomplete
+" -> ^n to autocomplete based on allhttps://github.com/renatomatz/rice.git files
+" -> ^x^f to autocomplete file names
 " General
 
 " Python -----------------------------------------------------------------------
