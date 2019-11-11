@@ -117,8 +117,8 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Terminal "
 set $ws2 "2: Firefox "
-set $ws3 "3: Music "
-set $ws4 "4: Code "
+set $ws3 "3: Code "
+set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -207,7 +207,7 @@ bar {
 
 ## Customizations
 # Lock 
-bindsym $mod+Shift+x exec i3lock -e -c "$bg-color"
+bindsym $mod+Shift+x exec --no-startup-id bash ~/.config/i3/i3lock_temp/cmatrixlock.sh
 # Pulse Audio Conrols
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease volume
@@ -245,5 +245,5 @@ assign [class="Spyder"] $ws4
 exec $TERMINAL
 exec --no-startup-id sudo netctl start uoftears
 exec_always --no-startup-id feh --bg-scale /home/renato/Pictures/wallpaper.jpg
-exec --no-startup-id compton -f
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
 #exec --no-startup-id pulseaudio --daemonize
