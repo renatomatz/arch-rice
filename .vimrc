@@ -57,22 +57,25 @@ command! MakeTags !ctags -R
 " -> ^n to autocomplete based on allhttps://github.com/renatomatz/rice.git files
 " -> ^x^f to autocomplete file names
 " General
+command! Crun :exec "!echo not implemented"
+command! Wrun :exec "!echo not implemented"
+command! Arun :exec "!echo not implemented"
 
 " Python -----------------------------------------------------------------------
 autocmd FileType python let fill = 'pass'
 autocmd FileType python command! Arun :exec 'w '.file_alias <bar> exec "!python ".file_alias <bar> exec "!rm ".file_alias
 autocmd FileType python command! Wrun :w <bar> exec '!python '.file_
-autocmd FileType python command! Prun :exec '!python '.file_
+autocmd FileType python command! Crun :exec '!python '.file_
 autocmd FileType python map <Leader>ar :Arun
 autocmd FileType python map <Leader>wr :Wrun
-autocmd FileType python map <Leader>pr :Prun
+autocmd FileType python map <Leader>pr :Crun
 autocmd FileType python map <Leader>dba ipdb.set_trace()<Esc>
 autocmd FileType python map <Leader>dbf /pdb.set_trace()<CR>
 noremap <Leader>ds <Esc>o<Tab>"""<CR>"""<Up>
 
 " LaTeX ------------------------------------------------------------------------
-autocmd FileType tex command Texecute :exec '!pdflatex '.file_ <bar> exec '!okular '.file_name.'.pdf &'
-autocmd FileType tex command TexUpdate :exec '!pdflatex '.file_
+autocmd FileType tex command! Crun :exec '!pdflatex '.file_ <bar> exec '!okular '.file_name.'.pdf &'
+autocmd FileType tex command! Wrun :exec '!pdflatex '.file_
 autocmd FileType tex autocmd BufWritePost * TexUpdate
 autocmd FileType tex noremap <Leader>u <Esc>:exec 'TexUpdate'<CR>
 
@@ -81,3 +84,11 @@ autocmd FileType tex inoremap <Leader>sec \section{}<CR><CR><++><Esc>2kf}i
 autocmd FileType tex inoremap <Leader>ssec \subsection{}<CR><CR><++><Esc>2kf}i
 autocmd FileType tex inoremap <Leader>sssec \subsubsection{}<CR><CR><++><Esc>2kf}i
 autocmd FileType tex noremap <Leader>env i\begin{<++>}<CR><CR>\end{<++>}<Esc><S-v>2k:s/<++>/
+
+" Markdown ----------------------------------------------------------------------
+autocmd BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md  set ft=markdown
+
+autocmd FileType markdown command! Crun :exec "!pandoc -t latex -o ".file_name.".pdf ".file_
+
+autocmd FileType markdown inoremap <Leader>i *
+autocmd FileType markdown inoremap <Leader>n 1.
