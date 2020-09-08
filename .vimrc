@@ -6,7 +6,12 @@ set splitbelow splitright
 set autoindent
 
 let g:airline_theme='deus'
-let mapleader = ";"
+let mapleader = "`"
+
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
+set tabstop=8 softtabstop=- expandtab shiftwidth=4 smarttab
 
 let file_ = expand('%:t')
 let file_name = expand('%:t:r')
@@ -59,17 +64,22 @@ command! MakeTags !ctags -R
 
 
 " General ----------------------------------------------------------------------
-let compiler = "echo"
-command! Crun :exec "!".compiler." ".file_
-command! Orun :exec "Crun" <bar> exec '!okular '.file_name.'.pdf &'
+let compiler = "echo "
+let out_cmd = "echo "
+let out_file = file_
+command! Crun :exec "!".compiler.file_
+command! Orun :exec "!".out_cmd.out_file
 command! Wrun :w <bar> exec "Crun"
 command! Arun :exec 'w '.file_alias <bar> exec "!".compiler." ".file_alias <bar> exec "!rm ".file_alias
+command! Frun :exec "Wrun" <bar> exec "Orun"
 
 map <Leader>pr :Crun
 map <Leader>or :Orun
 map <Leader>wr :Wrun
 map <Leader>ar :Arun
+map <Leader>fr :Frun
 
+nnoremap <Leader>lc :lclose
 nnoremap <Leader>ed /EDIT<CR>cw
 inoremap <Leader>ed <Esc>/EDIT<CR>cw
 
@@ -77,14 +87,32 @@ let comment = "#"
 inoremap <Leader>cc comment
 " Python -----------------------------------------------------------------------
 autocmd FileType python let fill = 'pass'
-autocmd FileType python let compiler = 'python'
+autocmd FileType python let compiler = 'python '
+autocmd FileType python let out_cmd = 'python '
 
 autocmd FileType python map <Leader>dba ipdb.set_trace()<Esc>
 autocmd FileType python map <Leader>dbf /pdb.set_trace()<CR>
 noremap <Leader>ds <Esc>o<Tab>"""<CR>"""<Up>
 
+" C/C++ ------------------------------------------------------------------------
+autocmd FileType c,cpp let compiler = "gcc "
+autocmd FileType c,cpp command! Crun :exec "!".compiler."-g -o ".file_name." ".file_
+autocmd FileType c,cpp command! Orun :exec "!./".file_name
+autocmd FileType c,cpp command! Arun :Orun
+
+" Go ---------------------------------------------------------------------------
+autocmd FileType go let out_cmd = "./"
+autocmd FileType go let out_file = expand('%:p:h:t')
+autocmd FileType go let compiler = "go build"
+
+autocmd FileType go command! Crun :exec "!".compiler
+autocmd FileType go command! Orun :exec "!".out_cmd.out_file
+autocmd FileType go command! Arun :Orun
+
 " LaTeX ------------------------------------------------------------------------
-autocmd FileType tex let compiler = 'pdflatex'
+autocmd FileType tex let compiler = 'pdflatex '
+autocmd FileType tex let out_cmd = "okular "
+autocmd FileType tex let out_file = file_name.".pdf &"
 
 autocmd FileType tex autocmd BufWritePost * Wrun
 
@@ -94,6 +122,7 @@ autocmd FileType tex command Bibrun :exec "Bib" <bar> exec "Wrun"
 autocmd FileType tex inoremap <Leader>i \item 
 autocmd FileType tex inoremap <Leader>m $  $<Esc>hi
 autocmd FileType tex inoremap <Leader>M \[  \]<Esc>hhi
+autocmd FileType tex inoremap <Leader>( \left(  \right)<Esc>7hi
 autocmd FileType tex inoremap <Leader>sec \section{}<CR><CR><++><Esc>2kf}i
 autocmd FileType tex inoremap <Leader>ssec \subsection{}<CR><CR><++><Esc>2kf}i
 autocmd FileType tex inoremap <Leader>sssec \subsubsection{}<CR><CR><++><Esc>2kf}i
@@ -103,6 +132,8 @@ autocmd FileType tex inoremap <Leader>env \begin{<++>}<CR><CR>EDIT<CR><CR>\end{<
 autocmd BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md  set ft=markdown
 
 autocmd FileType markdown let compiler = 'pandoc -t latex -o'
+autocmd FileType markdown let out_cmd = "okular "
+autocmd FileType markdown let out_file = file_name.".pdf &"
 
 autocmd FileType markdown command! Crun :exec "!pandoc -t latex -o ".file_name.".pdf ".file_
 
@@ -120,4 +151,5 @@ autocmd FileType html inoremap <Leader>eb <++>}<CR><CR>EDIT<CR><CR></++><Esc><S-
 autocmd FileType html let comment = "<!--   -->"
 
 " Writing
-autocmd FileType txt, tex, markdown nnoremap <Leader>f f.
+autocmd FileType txt,tex,markdown nnoremap <S-w> f.
+autocmd FileType txt,tex,markdown nnoremap <S-b> <S-f>.

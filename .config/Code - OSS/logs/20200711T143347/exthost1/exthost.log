@@ -1,0 +1,104 @@
+[2020-07-11 14:33:51.762] [exthost] [info] extension host started
+[2020-07-11 14:33:52.079] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-07-11 14:33:52.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/python/dist/pythonMain
+[2020-07-11 14:33:52.085] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2020-07-11 14:33:52.085] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/renatomz/.vscode-oss/extensions/ms-python.python-2020.6.91350/out/client/extension
+[2020-07-11 14:33:52.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-07-11 14:33:52.693] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2020-07-11 14:33:52.704] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-07-11 14:33:52.704] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/extension
+[2020-07-11 14:33:52.743] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-11 14:33:52.744] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2020-07-11 14:33:52.827] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-07-11 14:33:52.827] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github-authentication/dist/extension.js
+[2020-07-11 14:33:52.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-07-11 14:33:52.848] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/extension
+[2020-07-11 14:33:52.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-07-11 14:33:52.855] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/microsoft-authentication/dist/extension.js
+[2020-07-11 14:33:52.874] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-07-11 14:33:52.874] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2020-07-11 14:33:52.876] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2020-07-11 14:33:52.876] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/renatomz/.vscode-oss/extensions/vscodevim.vim-1.14.5/out/extension
+[2020-07-11 14:33:57.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-11 14:33:57.257] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2020-07-11 14:33:58.409] [exthost] [info] eager extensions activated
+[2020-07-11 14:33:59.641] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2020-07-11 14:33:59.641] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-server-ready/dist/extension
+[2020-07-11 14:34:06.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-07-11 14:34:06.589] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/extension
+[2020-07-11 14:34:06.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-07-11 14:34:06.599] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/jsonMain
+[2020-07-11 14:34:06.661] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-07-11 14:34:06.661] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2020-07-11 14:35:50.191] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-07-11 14:35:50.191] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/html-language-features/client/dist/htmlMain
+[2020-07-11 15:33:06.928] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:33:06.929] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:33:07.261] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:33:07.261] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:33:24.330] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:33:24.330] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:34:31.129] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:34:31.129] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:34:31.366] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:34:31.366] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:34:31.695] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:34:31.695] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:44:15.038] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:44:15.038] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:45:05.104] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:45:05.104] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:45:10.933] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:45:10.934] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:45:45.633] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:45:45.633] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:45:45.962] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:45:45.962] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:45:59.988] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:45:59.988] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:52:49.194] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:52:49.194] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 15:58:57.950] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 15:58:57.950] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 16:04:52.323] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 16:04:52.323] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 16:24:25.111] [exthost] [warning] TextEditor is closed/disposed
+[2020-07-11 16:24:25.111] [exthost] [warning] TextEditor is closed/disposed
+[2020-07-11 16:38:06.600] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 16:38:06.601] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)
+[2020-07-11 16:38:06.838] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-11 16:38:06.838] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:863)
+	at U.resolveCompletionItem (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:630)

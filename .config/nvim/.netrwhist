@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/renatomz/.config/polybar'
+let g:netrw_dirhist_4='/home/renatomz/.config/termite'
+let g:netrw_dirhist_3='/home/renatomz/Programs'
+let g:netrw_dirhist_2='/home/renatomz/.config/termite'
+let g:netrw_dirhist_1='/home/renatomz/.config/i3'

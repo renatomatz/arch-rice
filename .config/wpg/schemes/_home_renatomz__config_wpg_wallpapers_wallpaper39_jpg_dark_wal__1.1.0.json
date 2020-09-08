@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/renatomz/.config/wpg/wallpapers/wallpaper39.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d0d0c",
+        "foreground": "#c6c6c3",
+        "cursor": "#c6c6c3"
+    },
+    "colors": {
+        "color0": "#0d0d0c",
+        "color1": "#A4643A",
+        "color2": "#E99F33",
+        "color3": "#AC9367",
+        "color4": "#DD9E50",
+        "color5": "#526298",
+        "color6": "#738892",
+        "color7": "#c6c6c3",
+        "color8": "#8a8a88",
+        "color9": "#A4643A",
+        "color10": "#E99F33",
+        "color11": "#AC9367",
+        "color12": "#DD9E50",
+        "color13": "#526298",
+        "color14": "#738892",
+        "color15": "#c6c6c3"
+    }
+}

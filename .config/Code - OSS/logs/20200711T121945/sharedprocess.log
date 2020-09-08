@@ -1,0 +1,15 @@
+[2020-07-11 12:19:49.409] [sharedprocess] [info] main {"machineId":"db3270a4ced9d6357f732493fcf19e8e149b883f8a4c6add7107c9ebb4347e89","windowId":2}
+[2020-07-11 12:19:49.467] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/renatomz/.config/Code - OSS/User/snippets'
+[2020-07-11 12:19:56.557] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-07-11 12:20:00.091] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/aa622903-4a4f-4275-bacf-c172ef461d3c
+[2020-07-11 12:20:11.629] [sharedprocess] [info] Extracted extension to /home/renatomz/.vscode-oss/extensions/.ms-python.python-2020.6.91350: ms-python.python
+[2020-07-11 12:20:11.630] [sharedprocess] [info] Renamed to /home/renatomz/.vscode-oss/extensions/ms-python.python-2020.6.91350
+[2020-07-11 12:20:11.638] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-07-11 12:20:11.676] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-07-11 12:20:11.950] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2020-07-11 12:20:12.193] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/d332af80-b1f2-4267-a75e-158f6a359962
+[2020-07-11 12:20:12.282] [sharedprocess] [info] Extracted extension to /home/renatomz/.vscode-oss/extensions/.vscodevim.vim-1.14.5: vscodevim.vim
+[2020-07-11 12:20:12.282] [sharedprocess] [info] Renamed to /home/renatomz/.vscode-oss/extensions/vscodevim.vim-1.14.5
+[2020-07-11 12:20:12.284] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2020-07-11 12:20:12.289] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2020-07-11 12:20:29.450] [sharedprocess] [info] Starting to clean up unused language packs.

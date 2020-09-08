@@ -1,0 +1,110 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/renatomz/Documents/Projects/Dal-io
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s d36dbf3253cf516465a2dd8075c4036c564f06c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/pipe.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/pipe.py
+> git cat-file -s 50278970ef4a69ce8eb7d5d7ef100766a9c5bc57
+> git check-ignore -v -z --stdin
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s d36dbf3253cf516465a2dd8075c4036c564f06c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/pipe.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/pipe.py
+> git cat-file -s 50278970ef4a69ce8eb7d5d7ef100766a9c5bc57
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s d36dbf3253cf516465a2dd8075c4036c564f06c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 1814314e781b28fb2ad0034d0bc79be1c2de77bf
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s d36dbf3253cf516465a2dd8075c4036c564f06c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

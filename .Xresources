@@ -1,0 +1,16 @@
+!! URxvt Appearance
+URxvt.font: xft:Monaco:size=8 
+URxvt.boldFont: xft:Monaco:size=8  
+URxvt.italicFont: xft:Monaco:size=8  
+URxvt.boldItalicfont: xft:Monaco:size=8  
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 10
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.iso14755: false

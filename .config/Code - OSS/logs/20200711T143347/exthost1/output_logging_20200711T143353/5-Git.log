@@ -1,0 +1,669 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/renatomz/Documents/Projects/Dal-io
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/external/file.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/external/file.py
+> git cat-file -s 55bd53a3b852bd3887ca2ed3218caa4f50c2e748
+> git check-ignore -v -z --stdin
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git show :dalio/external/external.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/external/external.py
+> git cat-file -s aaae0b1766308f65992dfd06075b03dc24abf80a
+> git check-ignore -v -z --stdin
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git check-ignore -v -z --stdin
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git check-ignore -v -z --stdin
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :dalio/base/transformer.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/base/transformer.py
+> git cat-file -s 1b3d8a47e5ff53b234755918ae8cac97d61feb44
+> git check-ignore -v -z --stdin
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :dalio/validator/pandas_val.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/validator/pandas_val.py
+> git cat-file -s 551fac258bd8c3a0b3209c28ac85edccf2fb3757
+> git check-ignore -v -z --stdin
+> git show :tests/custom_col_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/custom_col_tests.py
+> git cat-file -s 34540c17a15cc0dc3401ed2ad6b147c4521d5737
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/external/file.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/external/file.py
+> git cat-file -s 55bd53a3b852bd3887ca2ed3218caa4f50c2e748
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git show :dalio/pipe/pipe.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/pipe.py
+> git cat-file -s 50278970ef4a69ce8eb7d5d7ef100766a9c5bc57
+> git check-ignore -v -z --stdin
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/pipe.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/pipe.py
+> git cat-file -s 50278970ef4a69ce8eb7d5d7ef100766a9c5bc57
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/pipe.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/pipe.py
+> git cat-file -s 50278970ef4a69ce8eb7d5d7ef100766a9c5bc57
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/col_generation.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/col_generation.py
+> git cat-file -s 48e5c26418402b38df006939763fdf280615adf7
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/builders.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/builders.py
+> git cat-file -s 4cc355d5bba447ef7c2ad1b7c87c7430d5d9f544
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/__init__.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/__init__.py
+> git cat-file -s 629894f6470d94eb07610965f4c10415e5ece548
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/pipe/__init__.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/__init__.py
+> git cat-file -s 629894f6470d94eb07610965f4c10415e5ece548
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/validator/pandas_val.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/validator/pandas_val.py
+> git cat-file -s 551fac258bd8c3a0b3209c28ac85edccf2fb3757
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/validator/pandas_val.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/validator/pandas_val.py
+> git cat-file -s 551fac258bd8c3a0b3209c28ac85edccf2fb3757
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :tests/pipe_tests.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/tests/pipe_tests.py
+> git cat-file -s 8bf86ec496e14eab2b8822e2691c58bfe31f608a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :dalio/pipe/select.py
+> git ls-files --stage -- /home/renatomz/Documents/Projects/Dal-io/dalio/pipe/select.py
+> git cat-file -s 81c676c0b2aa1e37aa8789426a85804d9d6cbaff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse pdpipe_integration
+> git rev-parse --symbolic-full-name pdpipe_integration@{u}
+> git rev-list --left-right pdpipe_integration...refs/remotes/origin/pdpipe_integration
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
